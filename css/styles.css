@@ -184,7 +184,8 @@ header {
 .home_top-wrapper {
     height: calc(100vh - 155px);
     /*background-image: url('images/checked.png');*/
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg-1.png");
+    /*background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg-1.png");*/
+    background: url("../video/beliit.mp4");
     background-repeat: no-repeat;
     /*background-size: cover;*/
     background-size: 1920px 1080px;
@@ -297,6 +298,9 @@ header {
 
 .box-review {
     padding: 70px 0;
+    background-image: url("../img/bg-review.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .review-info-wrapper {
     display: flex;
