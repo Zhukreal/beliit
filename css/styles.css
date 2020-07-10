@@ -5,10 +5,16 @@
     src: url("./../fonts/Roboto/Roboto-Regular.ttf") format('truetype')
 }
 @font-face {
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
     font-style: normal;
     font-weight: 300;
     src: url("./../fonts/Roboto/Roboto-Thin.ttf") format('truetype')
+}
+@font-face {
+    font-family: 'RobotoLight';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./../fonts/Roboto/Roboto-Light.ttf") format('truetype')
 }
 @font-face {
     font-family: 'RobotoBold';
@@ -113,16 +119,16 @@ body {
 /*    color: #404040;*/
 /*}*/
 
-input::-moz-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-input::-webkit-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-input:-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-input::-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-input::placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-textarea::-moz-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-textarea::-webkit-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-textarea:-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-textarea::-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
-textarea::placeholder { color: #404040; font-style: italic; font-family: 'RobotoThin';}
+input::-moz-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+input::-webkit-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+input:-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+input::-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+input::placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+textarea::-moz-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+textarea::-webkit-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+textarea:-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+textarea::-ms-input-placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
+textarea::placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
 
 .container {
     max-width: 1600px;
@@ -265,7 +271,7 @@ header {
     line-height: 25px;
     color: #404040;
     margin-top: 50px;
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
 }
 .about-info-left {
     width: 50%;
@@ -313,7 +319,7 @@ header {
     font-size: 16px;
 }
 .review-text {
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
     font-size: 16px;
     line-height: 25px;
     color: #404040;
@@ -367,13 +373,13 @@ header {
     font-size: 16px;
     color: #404040;
     margin-bottom: 20px;
-    font-family: 'RobotoThin'
+    font-family: 'RobotoLight'
 }
 .contacts-text {
     font-size: 16px;
     line-height: 25px;
     color: #404040;
-    font-family: 'RobotoThin'
+    font-family: 'RobotoLight'
 }
 .img-map {
     height: 100%;
@@ -439,13 +445,13 @@ header {
 .footer-bottom-text {
     font-size: 16px;
     line-height: 25px;
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
     color: #ffffff;
 }
 .footer-bottom-subtitle-2 {
     margin-top: 20px;
     color: #ffffff;
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
 }
 .footer-bottom-subtitle-2 span {
     font-size: 16px;
@@ -478,7 +484,7 @@ header {
 .feedback-subinfo-text {
     font-size: 16px;
     color: #404040;
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
 }
 .feedback-form-box {
     margin-top: 40px;
@@ -511,7 +517,7 @@ header {
     line-height: 25px;
     color: #404040;
     margin-top: 20px;
-    font-family: 'RobotoThin';
+    font-family: 'RobotoLight';
     font-style: italic;
 }
 
