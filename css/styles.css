@@ -133,6 +133,7 @@ textarea::placeholder { color: #404040; font-style: italic; font-family: 'Roboto
 .container {
     max-width: 1600px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .container-center {
     max-width: 1000px;
@@ -183,12 +184,24 @@ header {
 }
 .home_top-wrapper {
     height: calc(100vh - 155px);
-    /*background-image: url('images/checked.png');*/
+    position: relative;
+}
+.bg-wrapper {
     /*background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg-1.png");*/
-    background: url("../video/beliit.mp4");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
-    background-size: 1920px 1080px;
+    /*background-size: 1920px 1080px;*/
+    z-index: 2;
+    position: relative;
+}
+.home_video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    /*min-height: 100%;*/
+    min-height: calc(100vh - 155px);
+    z-index: 1;
 }
 .home_top_title {
     font-size: 60px;
@@ -205,10 +218,16 @@ header {
     align-items: flex-end;
 }
 .home_top_products-left {
-
+    width: 50%;
+    min-width: 50%;
+    padding-right: 120px;
+    box-sizing: border-box;
 }
 .home_top_products-right {
-    margin-left: 240px;
+    width: 50%;
+    min-width: 50%;
+    box-sizing: border-box;
+    padding-left: 120px;
 }
 .home_top_product-name {
     font-size: 22px;
